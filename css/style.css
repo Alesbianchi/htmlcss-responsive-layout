@@ -79,6 +79,10 @@ img{
     
 }
 
+span{
+    display: none;
+}
+
 #Presentation img{
     
     margin-top: 10px;
@@ -182,6 +186,10 @@ footer{
     H1{
         margin-left: 5%;
     }
+    h2{
+        font-size: 40px;
+    }
+    
     
 }
 
@@ -193,6 +201,9 @@ footer{
     }
     H1{
         margin-left: 5%;
+    }
+    h2{
+        font-size: 40px;
     }
     
     .row{
@@ -238,6 +249,10 @@ footer{
         padding-top: 2%;
     }
 
+    span{
+        display: inline;
+        color: #000;
+    }
 
     
 
