@@ -32,7 +32,7 @@ header{
 
 /* regole contenuto principale*/
 .container{
-    width: 80%;
+    width: 90%;
     margin: 30px auto;
     /*DEBUG*/
     /*background-color: green;*/
@@ -57,6 +57,11 @@ header{
 .h3{
     text-align: left;
     margin-left: 10px;
+}
+h2{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-weight: 10000;
 }
 
 /* regole contenuto pagina*/
@@ -173,6 +178,9 @@ footer{
 
     .end-two{
         padding-bottom: 5%;
+    }
+    H1{
+        margin-left: 5%;
     }
     
 }
