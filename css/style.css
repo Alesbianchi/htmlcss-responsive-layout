@@ -13,8 +13,8 @@ body{
 .col_info {
     /* DEBUG */
     /*height: 100px;*/
-    background-color: red;
-    border: solid 1px #000;
+    /*background-color: red;*/
+    /*border: solid 1px #000;*/
     text-align: left;
 }
 
@@ -29,13 +29,21 @@ header{
     width: 80%;
     margin: 30px auto;
     /*DEBUG*/
-    background-color: green;
+    /*background-color: green;*/
     /*height: 500px;*/
 }
 .end-one .end-two{
     text-align: center;
     background-color: red;
     border: solid 1px #000;
+}
+
+.end-two{
+    margin-top: 5%;
+    
+}
+.address{
+    padding-top: 2%;
 }
 
 
@@ -57,11 +65,59 @@ img{
     background-position:cover ;
 }
 
-ul li{
+#Presentation img{
+    width: 50%;
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+.clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.container-icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.fa-facebook{
+    
+}
+
+.link{
+    background-color: #fff;
+    text-decoration: none;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 999999999px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1;
+    width: auto;
+    flex-wrap: wrap; 
+}
+
+
+ul .pinco{
     list-style: none;
     margin: 5px;
     display: block;
 }
+
+
+ul li{
+    list-style: none;
+    margin: 5px;
+    display: inline;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 
 
 /*footer*/
@@ -69,6 +125,8 @@ footer{
     background-color: blueviolet;
     /*DEBUG*/
     /*height: 150px;*/
+    text-align: center;
+    color: #fff;
 }
 
 
@@ -77,7 +135,12 @@ footer{
     ul li{
         display: inline;
         
-        
+    }
+    #Presentation img{
+        width: 200px;
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 10px;
     }
     
 }
