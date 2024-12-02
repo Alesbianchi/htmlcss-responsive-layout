@@ -12,9 +12,10 @@ body{
 .col_video,
 .col_info {
     /* DEBUG */
-    height: 100px;
+    /*height: 100px;*/
     background-color: red;
     border: solid 1px #000;
+    text-align: left;
 }
 
 /* header*/
@@ -29,18 +30,37 @@ header{
     margin: 30px auto;
     /*DEBUG*/
     background-color: green;
-    height: 500px;
+    /*height: 500px;*/
 }
-.col{
+.end-one .end-two{
     text-align: center;
+    background-color: red;
+    border: solid 1px #000;
 }
 
 
+.h3{
+    text-align: left;
+    margin-left: 10px;
+}
+
+/* regole contenuto pagina*/
 .banner{
     display: none;
     /*DEBUG*/
-    background-color: blue;
+    background-color: yellow;
     height: 30px;
+}
+
+img{
+    width: 100%;
+    background-position:cover ;
+}
+
+ul li{
+    list-style: none;
+    margin: 5px;
+    display: block;
 }
 
 
@@ -48,13 +68,17 @@ header{
 footer{
     background-color: blueviolet;
     /*DEBUG*/
-    height: 150px;
+    /*height: 150px;*/
 }
 
 
 /*VERSIONE TABLET*/
 @media screen and (min-width: 768px) {
-    
+    ul li{
+        display: inline;
+        
+        
+    }
     
 }
 
@@ -84,7 +108,14 @@ footer{
         text-align: right;
     }
 
-
+    .banner{
+        display: block;
+    }
+   
+    ul li{
+        display: block;
+    }
+    
 
 
 }
