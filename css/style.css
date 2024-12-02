@@ -1,6 +1,90 @@
+/* regole generali di pagina*/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: antiquewhite;
+}
 
+.col,
+.col_video,
+.col_info {
+    /* DEBUG */
+    height: 100px;
+    background-color: red;
+    border: solid 1px #000;
+}
+
+/* header*/
+header{
+    height: 150px;
+    background-color: #fff;
+}
+
+/* regole contenuto principale*/
+.container{
+    width: 80%;
+    margin: 30px auto;
+    /*DEBUG*/
+    background-color: green;
+    height: 500px;
+}
+.col{
+    text-align: center;
+}
+
+
+.banner{
+    display: none;
+    /*DEBUG*/
+    background-color: blue;
+    height: 30px;
+}
+
+
+/*footer*/
+footer{
+    background-color: blueviolet;
+    /*DEBUG*/
+    height: 150px;
+}
+
+
+/*VERSIONE TABLET*/
+@media screen and (min-width: 768px) {
+    
+    
+}
+
+
+/*VERSIONE DESKTOP*/
+@media screen and (min-width: 992px) {
+    .row{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #info-ricette .col-video {
+        width: 70%;
+    }
+
+    #info-ricette .col-info {
+        width: 30%;
+    }
+    .col{
+        width: 50%;
+    }
+
+    .end-one{
+        text-align: left;
+    }
+    .end-two{
+        text-align: right;
+    }
+
+
+
+
+}
